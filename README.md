@@ -1,4 +1,4 @@
-# UTRAINS : Shell Scripting
+# SFGTRAIN : Shell Scripting
 
 A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter.
 Use this guide to get a great hold on shell scripting!
@@ -74,7 +74,7 @@ If you find yourself repeating some commands frequently, you can, rather you sho
 
 ```sh
 #!/bin/bash
-echo "My First Utrains Script!"
+echo "My First sfgtrain Script!"
 ```
 
 To run it:
@@ -98,7 +98,7 @@ Comments are started by a `#` sign, anything after pound sign on that line is ig
 #### Example
 ```sh
 #!/bin/bash
-echo "Hello World! Welcome to Utrains Scripting"
+echo "Hello World! Welcome to sfgtrain Scripting"
 # This line won be executed!
 ```
 
@@ -176,7 +176,7 @@ MY_COUNTRY="Cameroon"
 echo "Hello, I'm $MY_COUNTRY"
 ```
 
-[Download the code](./utrainsCourseScripts/variable/my_country.sh)
+[Download the code](./sfgtrainCourseScripts/variable/my_country.sh)
 
 
 * Example 2: Assign command output to a variable
@@ -197,7 +197,7 @@ echo "The contents of this directory are: "
 echo "$CONTENTS"
 ```
 
-[Download the code](./utrainsCourseScripts/variable/directory_contains.sh)
+[Download the code](./sfgtrainCourseScripts/variable/directory_contains.sh)
 
 * Example 3
 
@@ -207,7 +207,7 @@ SERVER_NAME=$(hostname)
 echo "This script is being run on ${SERVER_NAME}"
 ```
 
-[Download the code](./utrainsCourseScripts/variable/server_name.sh)
+[Download the code](./sfgtrainCourseScripts/variable/server_name.sh)
 
 ### Variable Names
 
@@ -239,7 +239,7 @@ Scripts are basically needed to remove the need of again and again typing the co
 [ condition-to-test-for ]
 ```
 
-#### [Example](./utrainsCourseScripts/variable/test.sh)
+#### [Example](./sfgtrainCourseScripts/variable/test.sh)
 
 ```sh
 [ -e /etc/passwd ]
@@ -298,12 +298,12 @@ then
 fi
 ```
 
-[Example:](./utrainsCourseScripts/ifElseStatement/ifStat.sh)
+[Example:](./sfgtrainCourseScripts/ifElseStatement/ifStat.sh)
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -338,12 +338,12 @@ else
 fi
 ```
 
-[Example:](./utrainsCourseScripts/ifElseStatement/ifElse.sh)
+[Example:](./sfgtrainCourseScripts/ifElseStatement/ifElse.sh)
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -378,12 +378,12 @@ else
 fi
 ```
 
-[Example:](./utrainsCourseScripts/ifElseStatement/ifElif.sh)
+[Example:](./sfgtrainCourseScripts/ifElseStatement/ifElif.sh)
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -456,12 +456,12 @@ case "$VAR" in
 esac
 ```
 
-#### [Example](./utrainsCourseScripts/ifElseStatement/case.sh)
+#### [Example](./sfgtrainCourseScripts/ifElseStatement/case.sh)
 
 ```sh
 #!/bin/bash
     
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -516,12 +516,12 @@ do
 done
 ```
 
-### [Example](./utrainsCourseScripts/loops/color.sh)
+### [Example](./sfgtrainCourseScripts/loops/color.sh)
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -535,12 +535,12 @@ done
 echo " |----------------------"
 ```
 
-[Alternatively,](./utrainsCourseScripts/loops/color2.sh)
+[Alternatively,](./sfgtrainCourseScripts/loops/color2.sh)
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -556,14 +556,14 @@ done
 echo " |----------------------"
 ```
 
-### [Example 2](./utrainsCourseScripts/loops/picture.sh)
+### [Example 2](./sfgtrainCourseScripts/loops/picture.sh)
 
 In this simple example we will see how to rename each file with .txt format
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -625,7 +625,7 @@ do
 done
 ```
 
-#### [Example: print first 10 natural numbers](./utrainsCourseScripts/loops/natur.sh)
+#### [Example: print first 10 natural numbers](./sfgtrainCourseScripts/loops/natur.sh)
 
 ```sh
 #!/bini/bash
@@ -637,13 +637,13 @@ do
 done
 ```
 
-#### [Example: Read user name until correct](./utrainsCourseScripts/loops/while_interact.sh)
+#### [Example: Read user name until correct](./sfgtrainCourseScripts/loops/while_interact.sh)
 
 ```sh
 #!/bin/bash
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -658,12 +658,12 @@ do
 done
 ```
 
-#### [Example: reading a file line by line](./utrainsCourseScripts/loops/while_read.sh)
+#### [Example: reading a file line by line](./sfgtrainCourseScripts/loops/while_read.sh)
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -870,14 +870,14 @@ function_name() {
 }
 ```
 
-#### [To call a function](./utrainsCourseScripts/functions/utrains_welcome.sh)
+#### [To call a function](./sfgtrainCourseScripts/functions/sfgtrain_welcome.sh)
 
 To call a function, simply write it's name on a line in the script.
 
 ```sh
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -887,7 +887,7 @@ To call a function, simply write it's name on a line in the script.
 
 function myFirstFunc () {
     echo "---------------------------------------------"
-    echo "| Welcome to the first Utrains Function !!!"
+    echo "| Welcome to the first sfgtrain Function !!!"
     echo "| Shell Scripting Is Fun!"
     echo "--------------------------------------------"
 }
@@ -902,24 +902,24 @@ myFirstFunc
 
 To call a function from another function, simply write the function name of the function you want to call.
 
-[Example:](./utrainsCourseScripts/functions/urains_Greetings.sh)
+[Example:](./sfgtrainCourseScripts/functions/urains_Greetings.sh)
 
 ```sh
 #!/bin/bash
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
-    # We have 2 functions (currentTime and utrainGreetings). currentTime allows to retrieve the system time.
-    # utrainGreeting allows you to retrieve the user logged into the machine and then pass the welcome greetings from Utrains. 
-    # We see that the currentTime function is called in the utrainGreetings function. which is great
+    # We have 2 functions (currentTime and sfgtrainGreetings). currentTime allows to retrieve the system time.
+    # sfgtrainGreeting allows you to retrieve the user logged into the machine and then pass the welcome greetings from sfgtrain. 
+    # We see that the currentTime function is called in the sfgtrainGreetings function. which is great
     
-function utrainGreetings() {
+function sfgtrainGreetings() {
   USER=$(whoami)
   echo "-----------------------------------------------"
-  echo "| Welcome ${USER} for Utrains Scripting Course"
+  echo "| Welcome ${USER} for sfgtrain Scripting Course"
 
   currentTime #--------- Call of a function in another
 }
@@ -929,7 +929,7 @@ function currentTime() {
   echo "-----------------------------------------------"
 }
 
-utrainGreetings  #------ call of the final function for our script
+sfgtrainGreetings  #------ call of the final function for our script
 ```
 
 ### Positional Parameters In Functions
