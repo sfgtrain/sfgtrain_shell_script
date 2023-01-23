@@ -7,8 +7,8 @@
 
 #In this script, we can create 4 variables ...
 
-FIRST_NAME=Dianna
-LAST_NAME=KAMGANG
+FIRST_NAME=chris
+LAST_NAME=eden
 COLOR=Purple
 AGE=27
 
