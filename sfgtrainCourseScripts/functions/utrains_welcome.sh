@@ -1,6 +1,6 @@
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
@@ -10,7 +10,7 @@
 
 function myFirstFunc () {
     echo "---------------------------------------------"
-    echo "| Welcome to the first Utrains Function !!!"
+    echo "| Welcome to the first sfgtrain Function !!!"
     echo "| Shell Scripting Is Fun!"
     echo "--------------------------------------------"
 }

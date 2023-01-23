@@ -1,6 +1,6 @@
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
 ## ---------- variables allow to contain values that we want to use several times in our scripts -----------------

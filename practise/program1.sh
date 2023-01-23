@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 16-Feb-2022
     
 ## ---------- Example of the solution Practice/Program 1   -----------------

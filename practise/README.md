@@ -1,6 +1,6 @@
 ## Programs for practise
 
-Write scripts for following programs yourself, if you are not able to solve them you can contact Utrains for have some help.
+Write scripts for following programs yourself, if you are not able to solve them you can contact sfgtrain for have some help.
 
 ### Program 1
 

@@ -1,17 +1,15 @@
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
     # for loop, for printing color in the prompt
-
-COLORS="red green blue white"
-
-echo " |----------------------"
-for COLOR in $COLORS
+ 
+echo " |----------------------"   
+for COLOR in red green blue white
 do
-  echo " | ${COLOR}"
+  echo " | The Color is: ${COLOR}"
 done
 echo " |----------------------"
 

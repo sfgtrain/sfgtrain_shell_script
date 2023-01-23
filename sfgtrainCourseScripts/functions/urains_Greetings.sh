@@ -1,17 +1,17 @@
 #!/bin/bash
 
-    #Author : Utrains
+    #Author : sfgtrain
     #Date : 01-Nov-2021
 
     #----------------------- Description ------------------------------
     # We have 2 functions (currentTime and utrainGreetings). currentTime allows to retrieve the system time.
-    # utrainGreeting allows you to retrieve the user logged into the machine and then pass the welcome greetings from Utrains. 
+    # utrainGreeting allows you to retrieve the user logged into the machine and then pass the welcome greetings from sfgtrain. 
     # We see that the currentTime function is called in the utrainGreetings function. which is great
     
 function utrainGreetings() {
   USER=$(whoami)
   echo "-----------------------------------------------"
-  echo "| Welcome ${USER} for Utrains Scripting Course"
+  echo "| Welcome ${USER} for sfgtrain Scripting Course"
 
   currentTime #--------- Call of a function in another
 }
